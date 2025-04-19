@@ -137,16 +137,24 @@ export default function Home() {
             className="mx-auto max-w-3xl space-y-8"
           >
             <h1 className="text-5xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-            Turn Words Into Stunning Visuals
+              Turn Words Into Stunning Visuals
             </h1>
             <p className="mx-auto max-w-2xl text-muted text-gray-400 sm:text-xl">
-            Generate AI-powered artwork from simple prompts—unleash your creativity in seconds.
+              Generate AI-powered artwork from simple prompts—unleash your creativity in seconds.
             </p>
             <div className="flex justify-center space-x-4">
-              <Button className="bg-gradient-to-r from-cyan-400 to-violet-500 text-lg text-black hover:from-cyan-500 hover:to-violet-600">
-              Let&apos;s Imagine
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <Link href="/imagine">
+                <Button className="bg-gradient-to-r from-cyan-400 to-violet-500 text-lg text-black hover:from-cyan-500 hover:to-violet-600">
+                  Let&apos;s Imagine
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link href="/creativity">
+                <Button className="bg-gradient-to-r from-cyan-400 to-violet-500 text-lg text-black hover:from-cyan-500 hover:to-violet-600">
+                  Creativity
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
             </div>
           </motion.div>
         </div>
@@ -170,7 +178,7 @@ export default function Home() {
               <CreditCard className="mb-4 h-12 w-12 text-cyan-400" />
               <h3 className="mb-2 text-xl font-bold">Text-to-Art Wizardry</h3>
               <p className="text-gray-400">
-              Type your thoughts — let AI turn them into stunning visuals in seconds.
+                Type your thoughts — let AI turn them into stunning visuals in seconds.
               </p>
             </motion.div>
             <motion.div
@@ -183,7 +191,7 @@ export default function Home() {
               <LineChart className="mb-4 h-12 w-12 text-violet-400" />
               <h3 className="mb-2 text-xl font-bold">Creative Control</h3>
               <p className="text-gray-400">
-              Fine-tune your art with styles, moods, and prompts that match your vision.
+                Fine-tune your art with styles, moods, and prompts that match your vision.
               </p>
             </motion.div>
             <motion.div
@@ -196,7 +204,7 @@ export default function Home() {
               <Lock className="mb-4 h-12 w-12 text-cyan-400" />
               <h3 className="mb-2 text-xl font-bold">Lightning-Fast Generation</h3>
               <p className="text-gray-400">
-              No waiting rooms — get your masterpiece almost instantly.
+                No waiting rooms — get your masterpiece almost instantly.
               </p>
             </motion.div>
           </div>
@@ -209,7 +217,7 @@ export default function Home() {
           <div className="mx-auto max-w-3xl rounded-2xl border border-white/10 bg-gradient-to-r from-cyan-950/50 to-violet-950/50 p-8 text-center backdrop-blur-sm md:p-12 lg:p-16">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Make Magic?</h2>
             <p className="mx-auto mt-4 max-w-xl text-gray-400">
-            Join thousands of curious minds turning words into visuals — no sign-up, no hassle.
+              Join thousands of curious minds turning words into visuals — no sign-up, no hassle.
             </p>
             <ul className="mx-auto mt-8 flex max-w-xl flex-col gap-4 text-left">
               <li className="flex items-center space-x-3">
@@ -225,10 +233,12 @@ export default function Home() {
                 <span>Free, fast, and fun</span>
               </li>
             </ul>
-            <Button className="mt-8 bg-gradient-to-r from-cyan-400 to-violet-500 text-lg text-black hover:from-cyan-500 hover:to-violet-600">
-            Let&apos;s Imagine
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link href="/imagine">
+              <Button className="mt-8 bg-gradient-to-r from-cyan-400 to-violet-500 text-lg text-black hover:from-cyan-500 hover:to-violet-600">
+                Let&apos;s Imagine
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
