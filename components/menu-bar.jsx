@@ -86,7 +86,7 @@ export function MenuBar() {
 
   return (
     <motion.nav
-      className="p-2 rounded-2xl bg-gradient-to-b from-[#111] to-[#1a1a1a] backdrop-blur-lg border border-[#2a2a2a] shadow-lg relative overflow-hidden"
+      className="p-2 rounded-2xl bg-gradient-to-b from-[#111] to-[#1a1a1a] backdrop-blur-lg border border-[#2a2a2a] shadow-lg sticky overflow-hidden"
       initial="initial"
       whileHover="hover"
     >
