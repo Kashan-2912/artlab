@@ -1,13 +1,17 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, CheckCircle2, CreditCard, LineChart, Lock, Wallet } from "lucide-react"
+import { ArrowRight, CheckCircle2, CreditCard, LineChart, Lock, Wallet, Bird } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button.jsx"
-
+import { MenuBar } from "@/components/menu-bar"
 
 export default function Home() {
   return (
+    <>
+    <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[5]">
+            <MenuBar />
+          </div>
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-16">
@@ -241,7 +245,7 @@ export default function Home() {
       <footer className="border-t border-white/10 bg-black py-8">
         <div className="container flex flex-col items-center justify-between space-y-4 px-4 md:flex-row md:space-y-0">
           <div className="flex items-center space-x-2">
-            <Wallet className="h-6 w-6 text-cyan-400" />
+            <Bird className="h-6 w-6 text-cyan-400" />
             <span className="font-bold">ArtLab</span>
           </div>
           <p className="text-sm text-gray-400">© {new Date().getFullYear()} Ares. Ares. All rights reserved.</p>
@@ -256,5 +260,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   )
 }

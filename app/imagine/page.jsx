@@ -54,7 +54,7 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="top-6 min-h-screen bg-black text-white">
       {/* Main Content */}
       <div className="container relative z-10 mx-auto px-4 py-16">
         <motion.div

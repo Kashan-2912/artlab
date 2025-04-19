@@ -13,8 +13,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" disableSystemTheme>
-          <div className="absolute top-6 left-1/2 -translate-x-1/2 z-[5]">
-            <MenuBar />
+          <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[5]">
+            {/* <MenuBar /> */}
           </div>
           {children}
         </ThemeProvider>
