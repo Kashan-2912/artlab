@@ -19,5 +19,5 @@
 
 ## 📸 Demo
 
-[![image](https://github.com/user-attachments/assets/2f24a467-43a2-441b-bed0-636914c3a34b)]
+![image](https://github.com/user-attachments/assets/2f24a467-43a2-441b-bed0-636914c3a34b)
 
