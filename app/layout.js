@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" disableSystemTheme>
+        <ThemeProvider attribute="class" defaultTheme="dark" disableSystemTheme>
           <div className="absolute top-6 left-1/2 -translate-x-1/2 z-[5]">
             <MenuBar />
           </div>
