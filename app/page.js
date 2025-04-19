@@ -4,20 +4,10 @@ import { motion } from "framer-motion"
 import { ArrowRight, CheckCircle2, CreditCard, LineChart, Lock, Wallet } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
-import { MenuBar } from "@/components/menu-bar"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Navigation */}
-      <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
-        <div className="mb-[120px]">
-          <ThemeToggle />
-        </div>
-        <MenuBar />
-      </div>
-
       {/* Hero Section */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-16">
         {/* Animated Elements */}
